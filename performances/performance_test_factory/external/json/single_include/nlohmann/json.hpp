@@ -8365,7 +8365,7 @@ class json_reverse_iterator : public std::reverse_iterator<Base>
         : base_iterator(it) {}
 
     /// create reverse iterator from base class
-    explicit json_reverse_iterator(const base_iterator& it) noexcept : base_iterator(it) {}
+    //explicit json_reverse_iterator(const base_iterator& it) noexcept : base_iterator(it) {}
 
     /// post-increment (it++)
     json_reverse_iterator const operator++(int)
